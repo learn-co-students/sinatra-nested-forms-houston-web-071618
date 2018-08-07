@@ -4,6 +4,7 @@ class Ship
 	@@all = []
 
 	def initialize(name, type, booty)
+		#binding.pry
 		@name = name
 		@type = type
 		@booty = booty
