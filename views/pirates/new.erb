@@ -1,1 +1,15 @@
-<h1>Make your form here</h1>
+<!-- <h1>Make your form here</h1> -->
+<form action="/pirates" method="post">
+  <input name="pirate[name]" placeholder ="name"/>
+  <input name="pirate[weight]" placeholder="weight" type="number"/>
+  <input name="pirate[height]" placeholder="height"/>
+  <br><br>
+    <input name="pirate[ships][][name]" id="ship_name_1" placeholder ="name"/>
+    <input name="pirate[ships][][type]" id="ship_type_1" placeholder ="type"/>
+    <input name="pirate[ships][][booty]" id="ship_booty_1" placeholder ="booty"/>
+  <br><br>
+    <input name="pirate[ships][][name]" id="ship_name_2" placeholder ="name"/>
+    <input name="pirate[ships][][type]" id="ship_type_2" placeholder ="type"/>
+    <input name="pirate[ships][][booty]" id="ship_booty_2" placeholder ="booty"/>
+  <button>Submit</button>
+</form>

@@ -1,0 +1,7 @@
+<ul>
+  <% @pirates.each do |pirate| %>
+    <li><a href="/pirates/<%= pirate.name %>"><%= pirate.name %></a></li>
+    <li><%= pirate.height %></li>
+    <li><%=pirate.weight %></li>
+  <% end %>
+</ul>
