@@ -16,6 +16,7 @@ module FormsLab
       name = pirate_info['name']
       weight  = pirate_info['weight']
       height = pirate_info['height']
+      @pirate = Pirate.new(name, weight, height)
       
       pirate_info[:ships].each do |ship|
         name = ship['name']
@@ -23,7 +24,6 @@ module FormsLab
         booty = ship['booty']
         Ship.new(name, type, booty)
       end
-        @pirate = Pirate.new(name, weight, height)
         @ships = Ship.all
       
       erb :'pirates/show'
