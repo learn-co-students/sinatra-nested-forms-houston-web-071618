@@ -15,7 +15,7 @@ Note: YOU DO NOT NEED A DATABASE, since we just need to keep track of the forms 
 3. After a user clicks submit they should be taken to a page that displays all the information we just posted from the form.  You should have a page that shows the pirate you created along with their ships and all the details about the pirate and their ships.
 
 ## Deliverables
-
+ 
 Pass the tests! You'll notice in specs that we use Capybara to fill in certain fields. It looks something like this:
 
 ```
